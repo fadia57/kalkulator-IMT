@@ -17,11 +17,11 @@ document.getElementById("hitungBtn").addEventListener("click", function () {
     kategori = "Kurus (Underweight) 😟";
     kelas = "underweight";
     pesan = "Kurus banget, makan yang banyak dan bergizi ya!";
-  } else if (bmi < 24.9) {
+  } else if (bmi < 25) {
     kategori = "Normal (Sehat) 😊";
     kelas = "normal";
     pesan = "Wih, berat badan ideal nih! Tetap jaga pola makan sehat ya!";
-  } else if (bmi >= 25 && bmi < 29.9) {
+  } else if (bmi < 30) {
     kategori = "Overweight (Berat Badan Berlebih) 😬";
     kelas = "overweight";
     pesan =
